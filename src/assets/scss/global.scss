@@ -1,0 +1,37 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.wrapper {
+  display: flex;
+  .sidebar {
+    width: 250px;
+    min-height: 100vh;
+    background: #fff;
+    overflow-x: hidden;
+  }
+  .page {
+    width: calc(100vw - 250px);
+    max-width: calc(100vw - 250px);
+    background: #e5e5e5;
+    padding: 2rem;
+  }
+}
